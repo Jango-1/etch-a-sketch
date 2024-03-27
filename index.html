@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+    <title>Etch-a-Sketch</title>
+</head>
+<body>
+    <h1>Let's Play Etch-a-Sketch!</h1>
+    <section class="game-area">
+        <div class="grid-container"></div>
+
+        <form id="grid-form">
+            <label for="quantity">Create a New Grid (between 4 and 100):</label>
+            <input type="number" id="quantity" name="quantity" min="4" max="100">
+            <input type="submit">
+        </form>
+        <button id="go-crazy">Go Crazy</button>
+    </section>
+</body>
+</html>
